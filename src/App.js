@@ -16,8 +16,8 @@ const App = () => {
       title={"¿Qué tipo de persona en la ETSIT eres en San Valentin?" }
       description={"Descúbrelo con este test de personalidad"}
       autoScroll={true}
-      onRestart={() => alert("This alert was triggered by the onRestart prop!")}
-      onResult={() => alert("The onResult prop triggered this alert!")}
+      onRestart={() => alert("Quieres volver a hacer el test?")}
+      onResult={() => alert("Presiona OK para ver tu resultado")}
       onAnswerSelection={(questionIndex, answerIndex, resultID) =>
         console.log({
           questionIndex,
@@ -25,13 +25,15 @@ const App = () => {
           resultID,
         })
       }
-      facebookShareButton={true}
+      facebookShareButton={false}
       facebookShareLink={"www.yourlink.com"}
-      twitterShareButton={true}
+      twitterShareButton={false}
       twitterShareLink={"www.yourlink.com"}
-      copyShareButton={true}
+      copyShareButton={false}
       copyShareLink={"This text was copied using the copyShareLink prop."}
-      questions={[
+      
+      
+      questions={[ 
        /* {
           question: "Here's a default question",
           answers: [
