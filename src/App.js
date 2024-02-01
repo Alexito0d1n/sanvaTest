@@ -16,7 +16,7 @@ const App = () => {
       title={"¿Qué tipo de persona en la ETSIT eres en San Valentin?" }
       description={"Descúbrelo con este test de personalidad"}
       autoScroll={true}
-      onRestart={() => alert("Quieres volver a hacer el test?")}
+      onRestart={() => alert("¿Quieres volver a hacer el test?")}
       onResult={() => alert("Presiona OK para ver tu resultado")}
       onAnswerSelection={(questionIndex, answerIndex, resultID) =>
         console.log({
