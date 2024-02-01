@@ -4,6 +4,13 @@ import SecondResultImage from "./assets/images/foto4.avif";
 import ThirdResultImage from "./assets/images/foto4.avif";
 import FourthResultImage from "./assets/images/foto4.avif";
 import BackgroundImageQ1 from "./assets/images/Q1.jpg";
+import BackgroundImageQ2 from "./assets/images/Q2.jpg";
+import BackgroundImageQ3 from "./assets/images/Q3.jpg";
+import BackgroundImageQ4 from "./assets/images/Q4.jpg";
+import BackgroundImageQ5 from "./assets/images/Q5.jpg";
+import BackgroundImageQ6 from "./assets/images/Q6.jpg";
+import BackgroundImageQ8 from "./assets/images/Q8.jpg";
+import BackgroundImageQ9 from "./assets/images/Q9.jpg";
 //import ResponseImage from "./assets/images/foto3.png";
 import { BuzzFeedQuiz } from "react-buzzfeed-quiz";
 import "react-buzzfeed-quiz/lib/styles.css";
@@ -116,9 +123,10 @@ const App = () => {
           ],
         },
         {
-          question: "Elige una asignatura",
+          question: "Elige una asignatura:",
           questionRelativeToImage: "overlap",
           answerArrangement: "tile",
+          backgroundImageSrc: BackgroundImageQ2,
           fontColor: color0,
           answers: [
             {
@@ -148,9 +156,10 @@ const App = () => {
           ],
         },
         {
-          question: "¿Cuál es tú lugar favorito de la ETSIT?",
+          question: "¿Cuál es tú lugar favorito en la ETSIT?",
           questionRelativeToImage: "overlap",
           answerArrangement: "tile",
+          backgroundImageSrc: BackgroundImageQ3,
           fontColor: color0,
           answers: [
             {
@@ -180,9 +189,10 @@ const App = () => {
           ],
         },
         {
-          question: "Qué tal te vas en la carrera?",
+          question: "¿Qué tal te ves en la carrera?",
           questionRelativeToImage: "overlap",
           answerArrangement: "tile",
+          backgroundImageSrc: BackgroundImageQ4,
           fontColor: color0,
           answers: [
             {
@@ -204,7 +214,7 @@ const App = () => {
               fontColor: "rgb(53,51,48)",
             },
             {
-              answer: "Me voy a ir a Magisterio",
+              answer: "Me voy a Magisterio",
               resultID: 2,
               backgroundColor: color4,
               fontColor: "rgb(53,51,48)",
@@ -215,6 +225,7 @@ const App = () => {
           question: "¿A quién le mandarias una piruleta?",
           questionRelativeToImage: "overlap",
           answerArrangement: "tile",
+          backgroundImageSrc: BackgroundImageQ5,
           fontColor: color0,
           answers: [
             {
@@ -247,7 +258,7 @@ const App = () => {
           question: "¿Cuál es tu actividad favorita en la ETSIT?",
           questionRelativeToImage: "overlap",
           answerArrangement: "tile",
-          backgroundImageSrc: BackgroundImage,
+          backgroundImageSrc: BackgroundImageQ6,
           fontColor: color0,
           answers: [
             {
@@ -296,7 +307,7 @@ const App = () => {
               fontColor: "rgb(53,51,48)",
             },
             {
-              answer: "ECO de Teleco",
+              answer: "ECO  ",
               resultID: 0,
               backgroundColor: color2,
               fontColor: "rgb(53,51,48)",
@@ -314,11 +325,11 @@ const App = () => {
           question: "¿Qué le regalarias a tu pareja?",
           questionRelativeToImage: "overlap",
           answerArrangement: "tile",
-          backgroundImageSrc: BackgroundImage,
+          backgroundImageSrc: BackgroundImageQ8,
           fontColor: color0,
           answers: [
             {
-              answer: "Chocolatinas",
+              answer: "Bombones",
               resultID: 2,
               backgroundColor: color2,
               fontColor: "rgb(53,51,48)",
@@ -344,10 +355,10 @@ const App = () => {
           ],
         },
         {
-          question: "Cita ideal en la ETSIT",
+          question: "¿Cuál seria tu cita ideal en la ETSIT?",
           questionRelativeToImage: "overlap",
           answerArrangement: "tile",
-          backgroundImageSrc: BackgroundImage,
+          backgroundImageSrc: BackgroundImageQ9,
           fontColor: color0,
           answers: [
             {
@@ -417,7 +428,7 @@ const App = () => {
       results={[
         {
           title: "Amantes de la ETSIT",
-          description: "Basas tu relación en estar juntos en la ETSIT, no os sacan de cafeta ni con agua calinete y Quique se sabe todos vuestros dramas.",
+          description: "Basas tu relación en estar juntos en la ETSIT, no os sacan de cafeta ni con agua caliente y Quique se sabe todos vuestros dramas.",
           resultImageSrc: FirstResultImage,
           resultID: 2,
         },
