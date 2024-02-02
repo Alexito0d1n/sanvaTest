@@ -19,12 +19,12 @@ import "react-buzzfeed-quiz/lib/styles.css";
 var color0= "#ffffff",color1= "#f0a1a5", color2="#fec1b2", color3="#fe7f6c", color4="#fbc8d6";
 const App = () => {
   return (
+    <div className="buzzfeed-quiz">
     <BuzzFeedQuiz
-      title={"¿Qué tipo de persona en la ETSIT eres en San Valentin?" }
-      description={"Descúbrelo con este test de personalidad"}
+      title={<h1 >¿Qué deberías regalarle a tu pareja por San Valentín?</h1>}
+      description={<h2>"Descúbrelo con este test de personalidad"</h2>}
       autoScroll={true}
       onRestart={() => alert("¿Quieres volver a hacer el test?")}
-      onResult={() => alert("Presiona OK para ver tu resultado")}
       onAnswerSelection={(questionIndex, answerIndex, resultID) =>
         console.log({
           questionIndex,
@@ -322,7 +322,7 @@ const App = () => {
         },
 
         {
-          question: "¿Qué le regalarias a tu pareja?",
+          question: "¿Qué te gustaría que te regalasen por San Valentín?",
           questionRelativeToImage: "overlap",
           answerArrangement: "tile",
           backgroundImageSrc: BackgroundImageQ8,
@@ -347,7 +347,7 @@ const App = () => {
               fontColor: "rgb(53,51,48)",
             },
             {
-              answer: "Nada, estoy solísim@",
+              answer: "Pareja",
               resultID: 0,
               backgroundColor: color4,
               fontColor: "rgb(53,51,48)",
@@ -483,6 +483,7 @@ const App = () => {
         },
       ]}
     />
+    </div>
   );
 };
 export default App;

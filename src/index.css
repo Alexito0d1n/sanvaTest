@@ -1,12 +1,22 @@
 body {
   background-image: url("./assets/images/background.jpg");
-  
   margin: 0;
-  
-    font-family: 'Courier New', Courier, monospace;                               
+  font-family: 'Courier New', Courier, monospace;                               
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+h1 {
+  color: black;
+  font-size: 30px;
+  text-align: center;
+}
+h2 {
+  color: black;
+  font-size: 30px;
+  text-align: center;
+}
+
 
 code {
   font-family: 'Courier New', Courier,
