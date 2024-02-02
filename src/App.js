@@ -1,4 +1,3 @@
-import BackgroundImage from "./assets/images/foto1.jpg";
 import FirstResultImage from "./assets/images/foto3.png";
 import SecondResultImage from "./assets/images/foto4.avif";
 import ThirdResultImage from "./assets/images/foto4.avif";
@@ -9,6 +8,7 @@ import BackgroundImageQ3 from "./assets/images/Q3.jpg";
 import BackgroundImageQ4 from "./assets/images/Q4.jpg";
 import BackgroundImageQ5 from "./assets/images/Q5.jpg";
 import BackgroundImageQ6 from "./assets/images/Q6.jpg";
+import BackgroundImageQ7 from "./assets/images/Q7.jpg";
 import BackgroundImageQ8 from "./assets/images/Q8.jpg";
 import BackgroundImageQ9 from "./assets/images/Q9.jpg";
 //import ResponseImage from "./assets/images/foto3.png";
@@ -22,7 +22,7 @@ const App = () => {
     <div className="buzzfeed-quiz">
     <BuzzFeedQuiz
       title={<h1 >¿Qué deberías regalarle a tu pareja por San Valentín?</h1>}
-      description={<h2>"Descúbrelo con este test de personalidad"</h2>}
+      description={<h2>Descúbrelo con este test de personalidad</h2>}
       autoScroll={true}
       onRestart={() => alert("¿Quieres volver a hacer el test?")}
       onAnswerSelection={(questionIndex, answerIndex, resultID) =>
@@ -142,7 +142,7 @@ const App = () => {
               fontColor: "rgb(53,51,48)",
             },
             {
-              answer: "BIOMECÁNICA",
+              answer: "Fundamentos de Biomecánica",
               resultID: 2,
               backgroundColor: color2,
               fontColor: "rgb(53,51,48)",
@@ -181,7 +181,7 @@ const App = () => {
               fontColor: "rgb(53,51,48)",
             },
             {
-              answer: "Laboratorios",
+              answer: "Clubes",
               resultID: 0,
               backgroundColor: color3,
               fontColor: "rgb(53,51,48)",
@@ -291,7 +291,7 @@ const App = () => {
           question: "¿Qué club es tu favorito?",
           questionRelativeToImage: "overlap",
           answerArrangement: "tile",
-          backgroundImageSrc: BackgroundImage,
+          backgroundImageSrc: BackgroundImageQ7,
           fontColor: color0,
           answers: [
             {
@@ -368,7 +368,7 @@ const App = () => {
               fontColor: "rgb(53,51,48)",
             },
             {
-              answer: "Ayudar a tu pareja con las prácticas de CELT",
+              answer: "Ayudar a tu pareja con CELT",
               resultID: 0,
               backgroundColor: color2,
               fontColor: "rgb(53,51,48)",
@@ -463,7 +463,7 @@ const App = () => {
         },                                                                 //Haced una frase por cada tipo
         {                                                                  //de perfil que os pongo aquí.
           title: "3 piruletas", //Oferta, espiritu emprendedor             //La idea es que se ponga una 
-          description: "TBD",                                              //frase corta divertida y frases
+          description: "Te encanta buscar nuevas opciones y nuevas oportunidades en el amor, has tenido una época en la ETSIT donde el 3x2 de integra te ha salvado de muchas. Pretendes o pretendiste hacerte rico con el proyecto de empresa, no lo niegues",                                              //frase corta divertida y frases
           resultImageSrc: SecondResultImage,                               //que puedan poner en la piruleta o
           resultID: 1,                                                     //bombón que se compren
         },
