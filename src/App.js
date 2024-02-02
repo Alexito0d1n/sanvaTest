@@ -16,7 +16,7 @@ import { BuzzFeedQuiz } from "react-buzzfeed-quiz";
 import "react-buzzfeed-quiz/lib/styles.css";
 
 
-var color0="#f70424",color1= "#f0a1a5", color2="#fec1b2", color3="#fe7f6c", color4="#fbc8d6";
+var color0= "#ffffff",color1= "#f0a1a5", color2="#fec1b2", color3="#fe7f6c", color4="#fbc8d6";
 const App = () => {
   return (
     <BuzzFeedQuiz
@@ -80,7 +80,7 @@ const App = () => {
               backgroundColor: "yellow",
               fontColor: "#000",
               resultID: 2,
-              revealResponse: {
+              revealResponse: {npm 
                  title: "Here's an answer response!",
                  description: "Here's a description for the answer response!",
                  image: ResponseImage,
@@ -142,7 +142,7 @@ const App = () => {
               fontColor: "rgb(53,51,48)",
             },
             {
-              answer: "INIT",
+              answer: "BIOMECÁNICA",
               resultID: 2,
               backgroundColor: color2,
               fontColor: "rgb(53,51,48)",
@@ -241,7 +241,7 @@ const App = () => {
               fontColor: "rgb(53,51,48)",
             },
             {
-              answer: "Gerardo",
+              answer: "A mi crush",
               resultID: 1,
               backgroundColor: color2,
               fontColor: "rgb(53,51,48)",
@@ -425,7 +425,7 @@ const App = () => {
           ],
         },*/
       ]}
-      results={[
+     /*  results={[
         {
           title: "Amantes de la ETSIT",
           description: "Basas tu relación en estar juntos en la ETSIT, no os sacan de cafeta ni con agua caliente y Quique se sabe todos vuestros dramas.",
@@ -448,6 +448,35 @@ const App = () => {
         {
           title: "Solter@ de oro",
           description: "No tienes pareja, pero tienes tu mercado (o eso esperamos). No te preocupes porque el año que viene tengas alguna piruleta.",
+          resultImageSrc: FourthResultImage,
+
+          resultID: 0,
+        },
+      ]} */
+
+      results={[
+        {
+          title: "Chocolate y Piruleta", //entregado en el amor
+          description: "TBD",
+          resultImageSrc: FirstResultImage,
+          resultID: 2,
+        },                                                                 //Haced una frase por cada tipo
+        {                                                                  //de perfil que os pongo aquí.
+          title: "3 piruletas", //Oferta, espiritu emprendedor             //La idea es que se ponga una 
+          description: "TBD",                                              //frase corta divertida y frases
+          resultImageSrc: SecondResultImage,                               //que puedan poner en la piruleta o
+          resultID: 1,                                                     //bombón que se compren
+        },
+        {
+          title: "1 chocolate", //El alternativo
+          description: "TBD",
+          resultImageSrc: ThirdResultImage,
+
+          resultID: 3,
+        },
+        {
+          title: "1 piruleta", //el tacaño/rata
+          description: "TBD",
           resultImageSrc: FourthResultImage,
 
           resultID: 0,
