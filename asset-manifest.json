@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/sanvaTest/static/css/main.579669b2.css",
-    "main.js": "/sanvaTest/static/js/main.211251d6.js",
+    "main.css": "/sanvaTest/static/css/main.e3a15ba6.css",
+    "main.js": "/sanvaTest/static/js/main.fd7060c7.js",
     "static/js/787.88dfdeb5.chunk.js": "/sanvaTest/static/js/787.88dfdeb5.chunk.js",
-    "static/media/foto4.avif": "/sanvaTest/static/media/foto4.04714866b95093126580.avif",
-    "static/media/foto3.png": "/sanvaTest/static/media/foto3.ca139b0d006b8f3a0439.png",
+    "static/media/Result0.png": "/sanvaTest/static/media/Result0.6870dae707e217c0b2b8.png",
+    "static/media/Result1.png": "/sanvaTest/static/media/Result1.cd4020c3fbf477940d93.png",
+    "static/media/Result2.png": "/sanvaTest/static/media/Result2.1c2b672d2259303ba68b.png",
+    "static/media/Result3.png": "/sanvaTest/static/media/Result3.50c5d5658febc4fa3a8c.png",
     "static/media/Q4.jpg": "/sanvaTest/static/media/Q4.d651efdcd9ebee523c5e.jpg",
     "static/media/Q6.jpg": "/sanvaTest/static/media/Q6.ef041f05101cb386846e.jpg",
     "static/media/Q5.jpg": "/sanvaTest/static/media/Q5.b50e0ee737c0aeea23ee.jpg",
@@ -14,12 +16,12 @@
     "static/media/Q3.jpg": "/sanvaTest/static/media/Q3.7e3ab6ae7f8c38e623bb.jpg",
     "static/media/Q2.jpg": "/sanvaTest/static/media/Q2.ea933f130e49292ca8ef.jpg",
     "index.html": "/sanvaTest/index.html",
-    "main.579669b2.css.map": "/sanvaTest/static/css/main.579669b2.css.map",
-    "main.211251d6.js.map": "/sanvaTest/static/js/main.211251d6.js.map",
+    "main.e3a15ba6.css.map": "/sanvaTest/static/css/main.e3a15ba6.css.map",
+    "main.fd7060c7.js.map": "/sanvaTest/static/js/main.fd7060c7.js.map",
     "787.88dfdeb5.chunk.js.map": "/sanvaTest/static/js/787.88dfdeb5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.579669b2.css",
-    "static/js/main.211251d6.js"
+    "static/css/main.e3a15ba6.css",
+    "static/js/main.fd7060c7.js"
   ]
 }
