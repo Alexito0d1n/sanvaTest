@@ -1,8 +1,8 @@
 
-import result0 from "./assets/images/result0.png";
-import result1 from "./assets/images/result1.png";
-import result2 from "./assets/images/result2.png";
-import result3 from "./assets/images/result3.png";
+import result0 from "./assets/images/Result0.png";
+import result1 from "./assets/images/Result1.png";
+import result2 from "./assets/images/Result2.png";
+import result3 from "./assets/images/Result3.png";
 import BackgroundImageQ1 from "./assets/images/Q1.jpg";
 import BackgroundImageQ2 from "./assets/images/Q2.jpg";
 import BackgroundImageQ3 from "./assets/images/Q3.jpg";
@@ -20,7 +20,7 @@ const App = () => {
   return (
     <div className="buzzfeed-quiz">
     <BuzzFeedQuiz
-      title={<h1 >¿Qué deberías regalarle a tu pareja por San Valentín?</h1>}
+      title={<h1 className="title" >¿Qué deberías regalarle a tu pareja por San Valentín?</h1>}
       description={<h2>Descúbrelo con este test de personalidad</h2>}
       autoScroll={true}
       onRestart={() => alert("¿Quieres volver a hacer el test?")}
