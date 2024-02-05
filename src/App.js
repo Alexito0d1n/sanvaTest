@@ -1,7 +1,8 @@
-import FirstResultImage from "./assets/images/foto3.png";
-import SecondResultImage from "./assets/images/foto4.avif";
-import ThirdResultImage from "./assets/images/foto4.avif";
-import FourthResultImage from "./assets/images/foto4.avif";
+
+import result0 from "./assets/images/result0.png";
+import result1 from "./assets/images/result1.png";
+import result2 from "./assets/images/result2.png";
+import result3 from "./assets/images/result3.png";
 import BackgroundImageQ1 from "./assets/images/Q1.jpg";
 import BackgroundImageQ2 from "./assets/images/Q2.jpg";
 import BackgroundImageQ3 from "./assets/images/Q3.jpg";
@@ -11,10 +12,8 @@ import BackgroundImageQ6 from "./assets/images/Q6.jpg";
 import BackgroundImageQ7 from "./assets/images/Q7.jpg";
 import BackgroundImageQ8 from "./assets/images/Q8.jpg";
 import BackgroundImageQ9 from "./assets/images/Q9.jpg";
-//import ResponseImage from "./assets/images/foto3.png";
 import { BuzzFeedQuiz } from "react-buzzfeed-quiz";
 import "react-buzzfeed-quiz/lib/styles.css";
-
 
 var color0= "#ffffff",color1= "#f0a1a5", color2="#fec1b2", color3="#fe7f6c", color4="#fbc8d6";
 const App = () => {
@@ -39,64 +38,14 @@ const App = () => {
       copyShareButton={false}
       copyShareLink={"This text was copied using the copyShareLink prop."}
       
-      
-      questions={[ 
-       /* {
-          question: "Here's a default question",
-          answers: [
-            {
-              answer: "Answer one",
-              resultID: 0,
-            },
-            {
-              answer: "Answer two",
-              resultID: 1,
-            },
-            {
-              answer: "Answer three",
-              resultID: 2,
-            },
-          ],
-        },*/
-        /*{
-          question: "Let's add some background and font colors",
-          backgroundColor: "rgb(211, 211, 211)",
-          fontColor: "#000",
-          answers: [
-            {
-              answer: "First answer",
-              backgroundColor: "red",
-              fontColor: "rgb(215, 215, 215)",
-              resultID: 0,
-            },
-            {
-              answer: "Second answer",
-              backgroundColor: "orange",
-              fontColor: "green",
-              resultID: 1,
-            },
-            {
-              answer: "Third answer",
-              backgroundColor: "yellow",
-              fontColor: "#000",
-              resultID: 2,
-              revealResponse: {npm 
-                 title: "Here's an answer response!",
-                 description: "Here's a description for the answer response!",
-                 image: ResponseImage,
-                 imageAttribution: "Answer response image attribution text goes here",
-              },
-            },
-          ],
-        },*/
-        {
-          question: "Elige tu team:",
+    questions={[ 
+        { question: "Elige tu team:",
           questionRelativeToImage: "overlap",
           answerArrangement: "tile",
           fontColor: color0,
-          backgroundImageSrc: BackgroundImageQ1,
-          answers: [
-            {
+    	    backgroundImageSrc: BackgroundImageQ1,
+          
+          answers: [{
               answer: "BIO",
               resultID: 0,
               backgroundColor: color1,
@@ -119,17 +68,14 @@ const App = () => {
               resultID: 2,
               backgroundColor: color2,
               fontColor: "rgb(53,51,48)",
-            },
-          ],
-        },
-        {
-          question: "Elige una asignatura:",
+            },],},
+        { question: "Elige una asignatura:",
           questionRelativeToImage: "overlap",
           answerArrangement: "tile",
           backgroundImageSrc: BackgroundImageQ2,
           fontColor: color0,
-          answers: [
-            {
+          
+          answers: [{
               answer: "MMAT",
               resultID: 0,
               backgroundColor: color3,
@@ -152,17 +98,13 @@ const App = () => {
               resultID: 3,
               backgroundColor: color4,
               fontColor: "rgb(53,51,48)",
-            },
-          ],
-        },
-        {
-          question: "¿Cuál es tú lugar favorito en la ETSIT?",
+            },],},
+        { question: "¿Cuál es tú lugar favorito en la ETSIT?",
           questionRelativeToImage: "overlap",
           answerArrangement: "tile",
           backgroundImageSrc: BackgroundImageQ3,
           fontColor: color0,
-          answers: [
-            {
+          answers: [{
               answer: "Cafetería",
               resultID: 2,
               backgroundColor: color2,
@@ -185,17 +127,14 @@ const App = () => {
               resultID: 0,
               backgroundColor: color3,
               fontColor: "rgb(53,51,48)",
-            },
-          ],
-        },
-        {
-          question: "¿Qué tal te ves en la carrera?",
+            },],},
+        { question: "¿Qué tal te ves en la carrera?",
           questionRelativeToImage: "overlap",
           answerArrangement: "tile",
           backgroundImageSrc: BackgroundImageQ4,
           fontColor: color0,
-          answers: [
-            {
+          
+          answers: [{
               answer: "Acabo de entrar",
               resultID: 1,
               backgroundColor: color3,
@@ -218,17 +157,13 @@ const App = () => {
               resultID: 2,
               backgroundColor: color4,
               fontColor: "rgb(53,51,48)",
-            },
-          ],
-        },
-        {
-          question: "¿A quién le mandarias una piruleta?",
+            },],},
+        { question: "¿A quién le mandarias una piruleta?",
           questionRelativeToImage: "overlap",
           answerArrangement: "tile",
           backgroundImageSrc: BackgroundImageQ5,
           fontColor: color0,
-          answers: [
-            {
+          answers: [{
               answer: "Grajal",
               resultID: 0,
               backgroundColor: color4,
@@ -251,17 +186,13 @@ const App = () => {
               resultID: 2,
               backgroundColor: color3,
               fontColor: "rgb(53,51,48)",
-            },
-          ],
-        },
-        {
-          question: "¿Cuál es tu actividad favorita en la ETSIT?",
+            },],},
+        { question: "¿Cuál es tu actividad favorita en la ETSIT?",
           questionRelativeToImage: "overlap",
           answerArrangement: "tile",
           backgroundImageSrc: BackgroundImageQ6,
           fontColor: color0,
-          answers: [
-            {
+          answers: [{
               answer: "Fumar",
               resultID: 3,
               backgroundColor: color1,
@@ -284,17 +215,13 @@ const App = () => {
               resultID: 0,
               backgroundColor: color4,
               fontColor: "rgb(53,51,48)",
-            },
-          ],
-        },
-        {
-          question: "¿Qué club es tu favorito?",
+            },],},
+        { question: "¿Qué club es tu favorito?",
           questionRelativeToImage: "overlap",
           answerArrangement: "tile",
           backgroundImageSrc: BackgroundImageQ7,
           fontColor: color0,
-          answers: [
-            {
+          answers: [{
               answer: "Euri",
               resultID: 3,
               backgroundColor: color1,
@@ -317,18 +244,14 @@ const App = () => {
               resultID: 1,
               backgroundColor: color3,
               fontColor: "rgb(53,51,48)",
-            },
-          ],
-        },
+            },],},
 
-        {
-          question: "¿Qué te gustaría que te regalasen por San Valentín?",
+        {question: "¿Qué te gustaría que te regalasen por San Valentín?",
           questionRelativeToImage: "overlap",
           answerArrangement: "tile",
           backgroundImageSrc: BackgroundImageQ8,
           fontColor: color0,
-          answers: [
-            {
+          answers: [{
               answer: "Bombones",
               resultID: 2,
               backgroundColor: color2,
@@ -351,17 +274,13 @@ const App = () => {
               resultID: 0,
               backgroundColor: color4,
               fontColor: "rgb(53,51,48)",
-            },
-          ],
-        },
-        {
-          question: "¿Cuál seria tu cita ideal en la ETSIT?",
+            },],},
+        { question: "¿Cuál seria tu cita ideal en la ETSIT?",
           questionRelativeToImage: "overlap",
           answerArrangement: "tile",
           backgroundImageSrc: BackgroundImageQ9,
           fontColor: color0,
-          answers: [
-            {
+          answers: [{
               answer: "Fumarse un piti en la puerta del A",
               resultID: 3,
               backgroundColor: color1, 
@@ -384,102 +303,31 @@ const App = () => {
               resultID: 2,
               backgroundColor: color4,
               fontColor: "rgb(53,51,48)",
-            },
-          ],
-        },
-
-
-        /*{
-          question: "Here is some adjacent image text",
-          questionRelativeToImage: "adjacent",
-          answerArrangement: "row",
-          backgroundImageSrc: BackgroundImage,
-          answers: [
-            {
-              answer: "Answer one",
-              resultID: 0,
-            },
-            {
-              answer: "Answer two",
-              resultID: 1,
-            },
-            {
-              answer: "Answer three",
-              resultID: 2,
-            },
-          ],
-        },*/
-       /*{
-          question: "Answers can also trigger a callback function",
-          answers: [
-            {
-              answer: "This one does not trigger a function",
-              resultID: 0,
-            },
-            {
-              answer: "Click for answer function",
-              onAnswerSelection: (questionIndex, answerIndex, resultID) =>
-                alert("This alert is caused by an answer selection!"),
-              resultID: 1,
-            },
-          ],
-        },*/
-      ]}
-     /*  results={[
-        {
-          title: "Amantes de la ETSIT",
-          description: "Basas tu relación en estar juntos en la ETSIT, no os sacan de cafeta ni con agua caliente y Quique se sabe todos vuestros dramas.",
-          resultImageSrc: FirstResultImage,
-          resultID: 2,
-        },
-        {
-          title: "Enamorad@ de la carrera",
-          description: "Te apasiona la carrera, quizás demasiado. Tu lugar favorito es la biblioteca y si pudieras irias a curso y medio por año.",
-          resultImageSrc: SecondResultImage,
-          resultID: 1,
-        },
-        {
-          title: "SIMP de manual",
-          description: "Gobernado por tu pareja, siempre que puedes te vas a la puerta del A para estar con ella y fumaros un piti. Aprovecha y regalale una piruleta.",
-          resultImageSrc: ThirdResultImage,
-
-          resultID: 3,
-        },
-        {
-          title: "Solter@ de oro",
-          description: "No tienes pareja, pero tienes tu mercado (o eso esperamos). No te preocupes porque el año que viene tengas alguna piruleta.",
-          resultImageSrc: FourthResultImage,
-
-          resultID: 0,
-        },
-      ]} */
-
+            },],},
+     ]}
+     
       results={[
-        {
-          title: "Chocolate y Piruleta", //entregado en el amor
-          description: "TBD",
-          resultImageSrc: FirstResultImage,
-          resultID: 2,
-        },                                                                 //Haced una frase por cada tipo
-        {                                                                  //de perfil que os pongo aquí.
-          title: "3 piruletas", //Oferta, espiritu emprendedor             //La idea es que se ponga una 
-          description: "Te encanta buscar nuevas opciones y nuevas oportunidades en el amor, has tenido una época en la ETSIT donde el 3x2 de integra te ha salvado de muchas. Pretendes o pretendiste hacerte rico con el proyecto de empresa, no lo niegues",                                              //frase corta divertida y frases
-          resultImageSrc: SecondResultImage,                               //que puedan poner en la piruleta o
-          resultID: 1,                                                     //bombón que se compren
+        {  //el tacaño/rata
+          //description: Conseguir cubatas gratis de fiesta es tu pasatiempo favorito, tienes el arte de la seducción mas que dominado. Seamos honestos, el sueldo no te da ni para invitar a una cerve a tu crush y los pitis que le robas a tus amigos cada vez saben mejor.,
+          resultImageSrc: result0,
+          resultID: 0,
         },
-        {
-          title: "1 chocolate", //El alternativo
-          description: "TBD",
-          resultImageSrc: ThirdResultImage,
+        {  //El emprendedor                                                              
+          //description: Te encanta buscar nuevas opciones y nuevas oportunidades en el amor, has tenido una época en la ETSIT donde el 3x2 de integra te ha salvado de muchas. Pretendes o pretendiste hacerte rico con el proyecto de empresa, no lo niegues,                                              
+          resultImageSrc: result1,                              
+          resultID: 1,                                                     
+        },
+        { 
+           //Entregado en el amor
+          //description: Eres una persona 10, igual que apruebas RDOR te entregas al amor. Andas en busca de alguien que no mienta principalmente pero siempre te estampas, no pierdes la fe aunque te osties.",
+          resultImageSrc: result2,
+          resultID: 2,
+        },                                                               
+        {  //El alternativo
+          //description: "Te gusta arriesgar, y en el amor no iba a ser menos. ¿Quién quiere ir a la Tagliatella cuando puedes tener una cita superromántica en el museo del C? Cuidado!! Grajal estará mirando",
+          resultImageSrc: result3,
 
           resultID: 3,
-        },
-        {
-          title: "1 piruleta", //el tacaño/rata
-          description: "TBD",
-          resultImageSrc: FourthResultImage,
-
-          resultID: 0,
         },
       ]}
     />
