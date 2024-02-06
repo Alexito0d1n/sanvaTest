@@ -4,12 +4,11 @@ body {
   font-family: 'Courier New', Courier, monospace;                               
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 100px;
+  
 }
 .rbq_result_header{
   display: none;
 }
-  
 
 .rbq_result_inner_description_container {
   display: none !important;
